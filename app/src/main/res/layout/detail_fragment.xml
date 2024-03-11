@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.DetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/team1nameinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ev Sahibi Takım Adı:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/team1_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            tools:text="text1" />
+
+        <TextView
+            android:id="@+id/team1_puaninfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Ev Sahibi Takım Puanı:" />
+
+        <TextView
+            android:id="@+id/team1_puan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            tools:text="text1" />
+
+        <TextView
+            android:id="@+id/team1_short_nameinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Ev Sahibi Takım Kısa İsim:" />
+
+        <TextView
+            android:id="@+id/team1_short_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            tools:text="text1" />
+
+        <TextView
+            android:id="@+id/team1_red_cardinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Ev Sahibi Takım Kırmızı Kart Sayısı:" />
+
+        <TextView
+            android:id="@+id/team1_red_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            tools:text="text1" />
+
+
+        <TextView
+            android:id="@+id/team2_nameinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Misafir Takım Adı:" />
+
+        <TextView
+            android:id="@+id/team2_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            tools:text="text1" />
+
+        <TextView
+            android:id="@+id/team2_puaninfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Misafir Takım Puanı:" />
+
+        <TextView
+            android:id="@+id/team2_puan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            tools:text="text1" />
+
+        <TextView
+            android:id="@+id/team2_short_nameinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Misafir Takım Kısa Isim:" />
+
+        <TextView
+            android:id="@+id/team2_short_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            tools:text="text1" />
+
+
+        <TextView
+            android:id="@+id/team2_red_cardinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Misafir Takım Kırmızı Kart:" />
+
+        <TextView
+            android:id="@+id/team2_red_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            tools:text="text1" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
